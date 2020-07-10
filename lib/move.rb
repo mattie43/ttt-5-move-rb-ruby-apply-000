@@ -12,4 +12,5 @@ def input_to_index(str)
 end
 
 def move(arr, ind, char = "X")
-  
+  arr[ind] = char
+end
