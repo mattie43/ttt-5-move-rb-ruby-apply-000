@@ -11,5 +11,5 @@ def input_to_index(str)
   str.to_i - 1
 end
 
-def move(board, ind, char = "X")
+def move(arr, ind, char = "X")
   
